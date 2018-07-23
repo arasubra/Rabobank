@@ -1,6 +1,14 @@
 # Rabobank
-This code is used to generate the transaction report
+This project is used to generate the Rabobank's customer transaction report.
+
+Prerequiste:
+Check out the project in STS IDE and run it in pivotal server. 
+
+Steps to test:
+Make an api call from Restclient in web browser(Chrome or Mozilla).
+
 API : For Local: http://localhost:8080/statement/report
+
 Input Data:
 <records>
 	<record>
@@ -29,6 +37,6 @@ Input Data:
 	</record>
 </records>
 
-Output:
+Sample Output:
 
 {"178959":"Tickets from Erik de Vries","130498":"Tickets for Peter TheuÃ"}
